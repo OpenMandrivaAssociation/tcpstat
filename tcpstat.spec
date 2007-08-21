@@ -1,6 +1,6 @@
 %define name tcpstat
 %define version 1.5
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary: A network statistics reporter
 Name: %{name}
@@ -53,5 +53,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS COPYING ChangeLog INSTALL LICENSE NEWS README doc/Tips_and_Tricks.txt
 %_bindir/tcp*
 %_mandir/man1/tcp*
-
-
