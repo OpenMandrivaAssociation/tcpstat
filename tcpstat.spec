@@ -1,6 +1,6 @@
 %define name tcpstat
 %define version 1.5
-%define release %mkrel 7
+%define release %mkrel 9
 
 Summary: A network statistics reporter
 Name: %{name}
