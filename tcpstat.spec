@@ -1,6 +1,6 @@
 %define name tcpstat
 %define version 1.5
-%define release %mkrel 10
+%define release %mkrel 11
 
 Summary: A network statistics reporter
 Name: %{name}
@@ -10,7 +10,7 @@ Source0: %{name}-%{version}.tar.bz2
 License: BSD
 Group: Monitoring
 Url: http://www.frenchfries.net/paul/tcpstat/index.html
-BuildRoot: %{_tmppath}/%{name}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libpcap-devel
 
 %description
