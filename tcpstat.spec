@@ -9,7 +9,7 @@ Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
 License: BSD
 Group: Monitoring
-Url: http://www.frenchfries.net/paul/tcpstat/index.html
+Url: https://www.frenchfries.net/paul/tcpstat/index.html
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libpcap-devel
 
